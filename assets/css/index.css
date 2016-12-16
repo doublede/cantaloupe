@@ -1,0 +1,476 @@
+body{margin:auto;
+padding:0;
+font:16px/1.5 sans-serif;
+min-width:1000px;
+background: url(../images/crude/bg6.jpg);
+
+}
+
+a{
+    cursor:pointer;
+    text-decoration: none;
+    color:black;
+}
+
+/*header===================================================*/
+
+#header{
+    margin:0 50px;
+    position:relative;
+    left:70%;
+    color: black;
+    width:200px;
+    font-weight:lighter;
+}
+
+#header a{
+    cursor:pointer;
+    text-decoration: none;
+    color:black;
+}
+
+#header a:hover{
+    color:orangered;
+}
+
+a:hover{
+    color:orangered;
+}
+/*#denglu==================================================*/
+
+#denglu{
+    position:fixed;
+    background: black;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+#dlContainer{
+    position:fixed;
+    height:300px;
+    width:350px;
+    background: white;
+    opacity:1;
+    z-index: 11;
+}
+
+
+#dlContainer .dlHeader{
+    height:40px;
+    width:350px;
+    margin:0;
+    background:deepskyblue;
+    line-height: 40px;
+    text-indent: 1.2em;
+    font-weight:bold;
+}
+
+#close{
+    height:40px;
+    width:40px;
+    margin:0;
+    position:absolute;
+    top:0;
+    right:0;
+    background:url(../images/new/icon_exit.jpg) no-repeat;
+    cursor:pointer;
+}
+#dlLogin{
+    height:200px;
+    width:250px;
+    margin:0 50px;
+}
+
+#dlLogin form{
+    margin:0;
+    padding:0;
+}
+
+#dlLogin form input{
+    height:30px;
+    width:250px;
+    margin:30px 0 0 0;
+}
+
+#dlLogin a{
+    font-size:13px;
+    color:gray;
+    text-decoration: none;
+    width:70px;
+}
+
+.l{
+    float:left;
+}
+
+.r{
+    float:right;
+}
+
+
+
+
+
+#dlLogin .submitKey{
+    width:250px;
+    height:45px;
+    background:deepskyblue;
+    margin:20px 0;
+}
+
+
+
+
+/*search=====================================================*/
+
+#search{
+    position:relative;
+    left:40%;
+    width:25%;
+    margin-top:20px;
+}
+
+#search input{
+    border:solid 2px #193;
+    padding:0;
+    margin:0;
+    height:35px;
+    vertical-align:bottom;
+}
+
+#search .search_key{
+    width:60%;
+    font-size:20px;
+    border-right:none;
+}
+
+
+/*block1===================================================*/
+
+#block1{
+    width:1000px;
+    margin:auto;
+    height:350px;
+    
+   
+}
+
+/*menu_list==================================================*/
+
+.menu_list{
+    width:200px;
+    height:320px;
+    margin:20px 0 0 0px;
+    padding:0;
+    background:#fff;
+    float: left;
+   
+}
+
+.menu_list ul{
+    list-style-type:none
+}
+
+.menu_list ul a{
+    text-decoration:none;
+    color:black;
+}
+
+.menu_list ul a:hover{
+    color:orangered;
+}
+
+.menu_list ul li{
+    padding:5px 0;
+}
+
+
+/*home_circle=====================================================*/
+
+
+.home_circle{
+    width:800px;
+    height:320px;
+    padding:0;
+    margin:20px 0 0 0;
+
+    float:left;
+    
+   
+}
+
+#focus{
+    width:800px;
+    height:320px;
+    overflow: hidden;
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+#focus ul{
+    
+    height:320px;
+    position:absolute;
+    list-style: none;
+    padding:0;
+    margin:0;
+    
+    
+}
+
+#focus ul li{
+    float:left;
+    width:800px;
+    height:320px;
+    overflow:hidden;
+    position: relative;
+    background-color: black;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+img{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+#focus ul li div{
+
+}
+
+#focus .btnBg{
+
+}
+
+#focus .btn{
+    position:absolute;
+    width:800px;
+    height:15px;
+    padding:5px 10px;
+    right:0;
+    bottom:0;
+    text-align:right;     
+}
+
+#focus .btn span{
+    display:inline-block;
+    width:25px;
+    height:15px;
+    margin:0 0 0 5px;
+    background-color: white;
+}
+
+
+
+#focus .preNext {width:45px;
+    height:100px;
+    position:absolute;
+    top:120px;
+    background:url(../images/crude/right.png) no-repeat 0 0; 
+    cursor:pointer;
+}
+
+#focus .pre {left:0;}
+
+#focus .next {right:0; background-position:right top;} 
+
+
+
+/*#block2=================================================*/
+
+#block2{
+    width:1000px;
+    margin:auto;
+}
+
+#main_content{
+    width:800px;
+    margin:0 0 0 200px;
+    padding:0;
+}
+
+/*#main_content .sort==========================================*/
+
+.sort{
+    width:800px;
+    height:40px;
+    background: white;
+}
+
+.sort ul{
+    list-style: none;
+    margin:0;
+    padding:9px 0;
+}
+
+.sort ul li{
+    padding:0 0 0 40px;
+    display: inline-block;
+}
+
+.sort a{
+    text-decoration:none;
+    color:black;
+    font-size: 14px;
+}
+
+.sort a:hover{
+    color:orangered;
+}
+
+/*#main_content .content============================================*/
+
+.content{
+    width:800px;
+    margin:0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+.section{
+    margin:20px 0;
+    padding:0;
+    background:white;
+}
+
+.section .ccc{
+    height:175px;
+}
+
+.section .ccc img{
+    display: inline-block;
+    margin:10px 10px 15px 10px;
+    height:150px;
+    width:150px;
+    
+    float:left;
+}
+
+.section .ccc .allintro{
+    margin:10px 10px 15px 10px;
+    display:inline-block;
+    height:150px;
+    width:600px;
+    
+    float:left;
+
+}
+
+.allintro h4{
+    font-size:15px;
+    margin:5px 0;
+    padding:0;
+    height:22.5px;
+}
+
+.allintro h5{
+    margin:5px 0;
+    padding:0;
+    font-weight:normal;
+    font-size:13px;
+    height:19.5px;
+}
+
+.allintro p{
+    height:85px;
+    overflow: hidden;
+    margin:5px 0;
+}
+
+
+/*底栏===============================================*/
+
+.section ul{
+    list-style: none;
+    width:800px;
+    height:21px;
+    margin:5px 0;
+    padding:5px 0;;
+    border-top: solid lightgray 1px;
+}
+
+.section ul li{
+    list-style: none;
+    display: inline-block;
+    padding:0 65px;
+    color:darkgray;
+    
+}
+
+.comment_block{
+    display:block;
+    margin:0;
+    padding:20px 50px 0 50px;
+    border:0;
+    width:700px;
+                 /*宽度后台给出=============================*/
+    background-color: #eee;
+}
+
+.comment_block form{
+    height:85px;
+    border-bottom: solid lightgray 1px;
+}
+
+.comment_input{
+    width:688px;
+    height:20px;
+    border:orangered 1px solid;
+    padding:5px;
+}
+
+.inputKey{
+    float:right;
+    background-color:orangered;
+    padding:3px 15px;
+    color:white;
+    font-size: 12px;
+    margin:10px 0;
+    border-radius:5px;
+    box-shadow: none;
+}
+
+.comment_block ul{
+    width:700px;
+    margin:0;
+    padding:0;
+    height:auto;
+    border:none;
+}
+
+.comment_block ul li{
+    width:700px;
+    margin:0;
+    padding:10px 0;
+    display:block;
+    color:gray;
+    border-bottom: solid lightgray 1px;
+}
+
+.username{
+    color:dodgerblue;
+}
+
+.ucomment{
+    color:black;
+    font-size: 13px;
+}
+
+.time{
+    font-size:12px;
+    
+}
+
+
+
+
+
+
